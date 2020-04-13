@@ -121,13 +121,37 @@
     <h3 id="coocking">Кашеваренье</h3>
     <p>Каждый сильный и независимый должен владеть сим искусством.</p>
     </main>
-<footer> Со мной можно связаться при желении:
-  <ol>
-    <li>По телефону: <a href="callto:+375257600906">+375257600906</a></li>
-    <li>Через e-mail:<a href="mailto: tasikpnpu@mail.ru"> tasikpnpu@mail.ru</a></li>
-    <li>Мой <a href="Skype: tasikpnpu">Skype</a></li>
-  </ol>
+<footer>
+  <h4>Для связи со мной заполните форму ниже:</h4>
+<div class="contactform_container">
+  <form id="form1">
+    <div class="form-row">
+      <div class="col">
+      <input type="hidden" name="formData" value="Заголовок формы">
+        <input type="text" name="name" class="name form-control" placeholder="Представьтесь, пожалуйста">
+      </div>
+    </div>
+      <div class="form-group">
+          <label for="recipient-mail" class="col-form-label">Ваш email:</label>
+          <input type="text" name="email" id="recipient-mail" class="email form-control" placeholder="example@mail.ru">
+      </div>
+      <div class="form-group">
+          <label for="recipient-phone" class="col-form-label">Ваш телефон:</label>
+          <input type="text" name="phone" id="recipient-phone" class="phone form-control" placeholder="+375">
+      </div>
+      <div class="form-group">
+          <label for="message-text" class="col-form-label">Сообщение:</label>
+          <textarea name="message" id="message-text" class="message form-control" placeholder="Добавьте Ваше сообщение"></textarea>
+      </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+  </form>
+  </div>
 </footer>
+
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
