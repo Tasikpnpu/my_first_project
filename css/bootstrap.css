@@ -36,9 +36,14 @@
 --font-family-serif: Georgia, "Times New Roman", Times, serif;
 }
 
+.card-body {
+  border-radius: 100px;
+}
+
 .card {
   margin-left: auto;
     margin-right: auto;
+    border-radius: 100px
 }
 
 input:invalid {
@@ -6442,7 +6447,9 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   overflow: hidden;
 }
 
